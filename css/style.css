@@ -1,0 +1,53 @@
+
+
+@media (min-width: 768px){	
+	.navbar .navbar-nav{
+	display:inline-block;
+	float:none;
+	vertical-align:top;
+	
+}
+.navbar .navbar-collapse
+{
+	text-align:center;
+	
+}
+}
+.navbar-default .navbar-collapse .nav >li >a  {
+	color : #EEEEEE;
+	margin-left:10px;
+	margin-right:10px;
+	font-size:16px; 
+}
+.navbar-default .navbar-collapse .nav >li >a:hover ,.navbar-default .navbar-collapse .nav >li >a:focus {
+	color:#BDBDBD;
+	background:424242;
+}
+
+.bg-image{
+	
+	position:relative;
+}
+
+.bg-image img
+{
+	display:block;
+	width:100%;
+	background-size:cover;
+	margin:0 auto;
+	
+}
+
+
+.hero-image 
+{
+	margin-top:-20px;
+	
+}
+
+.hero-slide
+{
+margin-top:-20px;
+}
+
+.myitems .row .col-*-* { border:#000 solid; height:260px; display:block;}
